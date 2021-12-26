@@ -47,8 +47,8 @@ class Color:
 # update pip to the latest version
 import os
 print('Updating pip to the latest version.. ')
-#os.system('python3 -m pip install --upgrade pip  > /dev/null 2>&1')
-print(f'{Color.green}Update Successful!{Color.reset}')
+os.system('python3 -m pip install --upgrade pip  > /dev/null 2>&1')
+print(f"{Color.green}Update Successful!{Color.reset}")
 
 
 # Make sure that the required module are in the system
